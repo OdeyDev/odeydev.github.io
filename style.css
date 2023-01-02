@@ -1,0 +1,49 @@
+button {
+    color: white;
+    background-color: transparent;
+    border: transparent; 
+    display: block;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(159, 104, 221);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    transform: translateY(100px);
+    transform: translateX(50%);
+    text-align: center;
+
+
+}
+
+
+
+
+p {
+    color: blue;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    transition-delay: 100ms;
+    color: rgb(159, 104, 221);
+    cursor: pointer;
+    border: solid;
+    border-color: rgb(159, 104, 221);
+    
+
+}
+
+
+
+.shown {
+    opacity: 100;
+}
+
+.hidden {
+    opacity: 0;
+}
+
